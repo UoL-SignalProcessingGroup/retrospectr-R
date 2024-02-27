@@ -2,11 +2,12 @@
 
 Importance weight calculation for Stan model results with new data.
 
-Port of (this python package)[https://github.com/UoL-SignalProcessingGroup/retrospectr] to R.
+Port of [this python package](https://github.com/UoL-SignalProcessingGroup/retrospectr) to R.
 
 ## Installation
 
 ```R
+devtools::install_github("https://github.com/roualdes/bridgestan", subdir="R")
 devtools::install_github("UoL-SignalProcessingGroup/retrospectr-R")
 ```
 
