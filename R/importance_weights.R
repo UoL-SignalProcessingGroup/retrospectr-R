@@ -24,6 +24,7 @@ calculate_log_weights <- function(model, fit, old_data, new_data){
   } else {
     samples <- fit
   }
+  samples <- restrict_to_params(samples, old_model)
 
   #Check samples match model+old_data
   check_sample_dim(old_model, samples)

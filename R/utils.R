@@ -33,7 +33,11 @@ clean_param_names <- function(param_names){
 }
 
 extract_samples <- function(fit, model){
-  samples <- fit$draws()[,,clean_param_names(model$param_names())]
+  samples <- fit$draws()
   return(samples)
+}
+
+restrict_to_params <- function(samples, model){
+  return(samples[,,clean_param_names(model$param_names())])
 }
 
