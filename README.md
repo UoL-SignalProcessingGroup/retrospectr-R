@@ -1,4 +1,4 @@
-#retrospectr (R version)
+# retrospectr (R version)
 
 Importance weight calculation for Stan model results with new data.
 
