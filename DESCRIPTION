@@ -1,7 +1,7 @@
 Package: retrospectr
 Type: Package
 Title: Importance Sampling For Stan Models in CmdstanR
-Version: 0.1.0
+Version: 0.1.1
 Author: Alexander Phillips
 Maintainer: Alexander Phillips <A.M.Phillips@liverpool.ac.uk>
 Description: Importance Sampling For Stan Models in CmdstanR
